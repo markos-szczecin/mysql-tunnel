@@ -1,0 +1,22 @@
+{
+    "name": "mpedzik/mysql-ssh-tunnel",
+    "description": "Creating SSH tunnel for remote MySQL server",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*"
+    },
+    "authors": [
+        {
+            "name": "Marek Pędzik",
+            "email": "marek.pendzik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MySqlSshTunnel\\": "src/"
+        }
+    }
+}
